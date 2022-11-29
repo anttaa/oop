@@ -181,5 +181,9 @@ if __name__ == '__main__':
     print(rev_1)
     print(rev_2)
 
+    print('Сравнение:')
+    print(studs[0] < studs[1])
+    print(lects[0] > lects[1])
+
     print('Средняя оценка за домашние задания по всем студентам: ', average_rating_students(studs, 'Python'))
     print('Средняя оценка за лекции всех лекторов: ', average_rating_lecturer(lects, 'Python'))
